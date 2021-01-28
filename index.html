@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 
+
     <style>
         /*styling goes here*/
         .teal-text {
@@ -25,6 +26,10 @@
 
         .coffee-text {
             color: #57291c;
+        }
+
+        #coffeelist #coffeeSearch {
+            background-color: #57291c;
         }
 
 
@@ -42,6 +47,24 @@
 
 </head>
 <body>
+<nav class=“teal-text navbar navbar-expand-lg sticky-top">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="#coffeeList" class="white-a nav-link">Coffee List</a>
+        </li>
+    </ul>
+    <a class="navbar-brand d-none d-lg-block coffee-text" href="#"><h1>Coffee </h1></a>
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a href="#newCoffee" class="white-a nav-link">Add Coffee<span class="sr-only">(current)</span></a>
+        </li>
+    </ul>
+</div>
 
 <div class="container">
     <div class="teal-text jumbotron jumbotron-fluid m-o" style="background-image: url(img/pexels-negative-space-34085.jpg);">
@@ -54,7 +77,39 @@
     </div>
 </div>
 
-<div class="d-flex justify-content-around" id="coffeeBar">
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="col-12">-->
+<!--            <div class="input-field float-right">-->
+<!--                <label for="roast-selection">Roast</label>-->
+<!--                <br>-->
+<!--                <select id="roast-selection" name="roast-selection">-->
+<!--                    <option value="">All</option>-->
+<!--                    <option value="light">light</option>-->
+<!--                    <option value="medium">medium</option>-->
+<!--                    <option value="dark">dark</option>-->
+<!--                </select>-->
+<!--            </div>-->
+<!--            <form class="search-form" autocomplete="off">-->
+<!--                <div class="input-field">-->
+<!--                    <label for="search">Coffee Name</label>-->
+<!--                    <br>-->
+<!--                    <input type="text" id="search" onkeyup="updateCoffees()">-->
+<!--                    <br>-->
+<!--                    <button type="button" id="submit" class=" pulse btn btn-secondary btn-sm">Search</button>-->
+<!--                </div>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--        <div class="col-12 mt-5">-->
+<!--            <div id="coffees">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class="d-flex justify-content-around" id="coffeeSearch">
     <form class="w-50 p-3">
         <div class="row p-1">
                 <label for="roast-selection"></label>
@@ -71,7 +126,7 @@
     <table>
         <thead>
             <tr>
-                <th>ID</th>
+<!--                <th>ID</th>-->
                 <th>NAME</th>
                 <th>ROAST</th>
             </tr>
