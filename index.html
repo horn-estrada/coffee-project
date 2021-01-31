@@ -23,10 +23,12 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
             <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
             <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Potta+One&family=Yusei+Magic&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <nav class="white-text navbar navbar-expand-lg sticky-top">
-
+            <a class="navbar-brand" href="#"><img src="img/img.png" height="80" width="40"/></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,7 +39,7 @@
                         <a href="#coffeeList" class="white-a nav-link">Coffee List</a>
                     </li>
                 </ul>
-                <a class="navbar-brand d-none d-lg-block caramel-text" href="#"><h1>Coffee Crazes</h1></a>
+                <a class="navbar-brand d-none d-lg-block coffee-text" href="#"><h1>Luna's Latte</h1></a>
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a href="#newCoffee" class="white-a nav-link">Add Coffee<span class="sr-only">(current)</span></a>
@@ -51,9 +53,8 @@
             <div class="white-text jumbotron jumbotron-fluid m-0">
                 <div class="container text-center">
                     <div class="pt-4">
-                        <h1 class="display-3">Coffee Crazes</h1>
-                        <h4 class="jumbotron-tex-shadow">Plain black, a splash of creamer, caramel, whipped cream, the
-                            possibilities, are endless...</h4>
+                        <h1 class="display-3">Luna's Lattes</h1>
+                        <h4 class="jumbotron-tex-shadow">Because you should be able to have Great Coffee anytime</h4>
                     </div>
 
                     <a id="newCoffee"></a>
@@ -65,7 +66,7 @@
                 <form class="w-50 p-4">
                     <div class="row p-1">
                         <div class="col">
-                            <label for="roast-selection" class="light-text">Filter by Roast</label>
+                            <label for="roast-selection" class="light-text">Coffee Roast</label>
                             <select id="roast-selection" class="form-control">
                                 <option>all</option>
                                 <option>light</option>
@@ -82,11 +83,11 @@
                 <form class="w-50 p-4">
                     <div class="row p-1">
                         <div class="col-6">
-                            <label for="new-name" class="light-text">Add a New Coffee</label>
+                            <label for="new-name" class="light-text">Add a Coffee</label>
                             <input type="text" class="form-control" id="new-name" placeholder="Coffee Name..">
                         </div>
                         <div class="col-6">
-                            <label for="new-roast" class="light-text">Roast Type</label>
+                            <label for="new-roast" class="light-text">Select roast</label>
                             <select id="new-roast" class="form-control">
                                 <option>light</option>
                                 <option>medium</option>
