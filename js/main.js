@@ -34,6 +34,9 @@ function updateCoffees(e) {
     tbody.innerHTML = renderCoffees(filteredCoffees);
 }
 
+
+
+
 function addACoffee(e) {
     e.preventDefault();
     var coffee = {
