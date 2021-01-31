@@ -86,9 +86,9 @@ body {
     background-position: center;
 }
 
-nav {
-    background-color: #16222A;
-}
+/*nav {*/
+/*    background-color: #16222A;*/
+/*}*/
 
 #jumbotron-tex-shadow {
     text-shadow: 2px 2px #FF0000;
@@ -101,9 +101,9 @@ h1.display-3 {
     /*background-color: rgb(248, 140, 3);*/
     opacity: 0.3;
 }
-#navbar-brand {
-    color: black;
-}
+/*#navbar-brand {*/
+/*    color: black;*/
+/*}*/
 
 
 
