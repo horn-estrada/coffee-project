@@ -1,11 +1,11 @@
 .light-text{
-    color: #B5926E;
+    color: lightgrey;
 }
 a:hover{
     color: #00aba9;
 }
 .coffee-text {
-    font-size: 33px;
+    font-size: 66px;
     font-family:"Apple Chancery";
     color: darkgrey;
     /*font-weight: bold;*/
@@ -16,7 +16,7 @@ a:hover{
 
 .myButton {
     box-shadow:inset 0px 1px 0px 0px #22130F;
-    background-color:#00aba9;
+    background-color: darkslategrey;
     border-radius:3px;
     border:1px solid #2d231a;
     display:inline-block;
@@ -30,7 +30,7 @@ a:hover{
     transition: .1s ease-in-out;
 }
 .myButton:hover {
-    background-color:#FF8C00;
+    background-color: rgb(222, 84, 20);
     transform: scale(1.03);
 }
 .myButton:active {
@@ -47,7 +47,7 @@ a:hover{
     font-family:Potta;
     text-align: center;
     outline: black;
-    color: darkorange;
+    color: rgb(222, 84, 20);
 }
 .card:hover{
     color: #00aba9;
@@ -87,7 +87,7 @@ body {
 }
 
 nav {
-    background-color: rgb(40, 64, 78);
+    background-color: #16222A;
 }
 
 #jumbotron-tex-shadow {
@@ -111,8 +111,8 @@ h1.display-3 {
 
 footer {
     background: #16222A;
-    background: -webkit-linear-gradient( #3A6073, teal);
-    background: linear-gradient( #3A6073, teal);
+    background: -webkit-linear-gradient( #16222A, teal, black);
+    background: linear-gradient( #16222A, teal, black);
     color: white;
     margin-top:100px;
 }
