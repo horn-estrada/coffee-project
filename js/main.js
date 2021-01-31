@@ -1,5 +1,4 @@
 "use strict"
-alert("JS loaded")
 
 function renderCoffee(coffee) {
 
@@ -56,11 +55,11 @@ var coffees = [
     {id: 3, name: 'Cupdate', roast: 'light'},
     {id: 4, name: 'The BOM', roast: 'dark'},
     {id: 5, name: 'Owl City', roast: 'medium'},
-    {id: 6, name: 'HTML Taste', roast: 'medium'},
+    {id: 6, name: 'ourterHTM', roast: 'medium'},
     {id: 7, name: 'Ecma Script', roast: 'medium'},
     {id: 8, name: 'Cold Brew', roast: 'dark'},
-    {id: 9, name: 'Master', roast: 'dark'},
-    {id: 10, name: 'IFFE', roast: 'dark'},
+    {id: 9, name: 'Master Disaster', roast: 'dark'},
+    {id: 10, name: 'Taste of IFFE ', roast: 'dark'},
     {id: 11, name: 'Full Stack', roast: 'dark'},
     {id: 12, name: 'InnerHTML', roast: 'dark'},
     {id: 13, name: 'CSS Grid', roast: 'dark'},

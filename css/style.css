@@ -1,4 +1,3 @@
-
 .light-text{
     color: #B5926E;
 }
@@ -63,13 +62,14 @@ a:hover{
 
 .jumbotron {
     height: 45vh;
-    background: url("https://cdn.luxe.digital/media/2020/05/07203610/best-coffee-beans-luxe-digital.jpg") no-repeat center center;
+    background: url("https://www.pexels.com/video/ground-coffee-from-a-coffee-bean-grinder-machine-2849942/") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+/*https://www.pexels.com/video/ground-coffee-from-a-coffee-bean-grinder-machine-2849942/*/
 
 .jumbotron:hover{
     filter: brightness(85%);
