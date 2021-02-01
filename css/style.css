@@ -39,6 +39,7 @@ a:hover{
 }
 
 #coffeeList, #coffeeSearch {
+
     background-color: transparent;
 !important;
 }
@@ -64,8 +65,9 @@ a:hover{
 }
 
 .jumbotron {
+
     font-family:Potta;
-    height: 30vh;
+    height: 39vh;
     background-color: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -97,6 +99,8 @@ nav {border: 1px solid teal;
 }
 
 h1.display-3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-family: Architects Daughter;
     text-shadow: 6px 6px slategray;
     /*background-color: rgb(248, 140, 3);*/
