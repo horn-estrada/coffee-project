@@ -1,5 +1,6 @@
 "use strict"
-
+//This function displays...
+// transparent display changed the cards display on the HTML
 function renderCoffee(coffee) {
 
     var html = '<div class="coffee card shadow-sm p-1 bg-transparent rounded">';
@@ -11,7 +12,7 @@ function renderCoffee(coffee) {
     return html;
 
 }
-
+//loops through the coffees and displays all of them in HTML
 function renderCoffees(coffees) {
     var html = '';
     for (var i = coffees.length - 1; i >= 0; i--) {
@@ -19,7 +20,7 @@ function renderCoffees(coffees) {
     }
     return html;
 }
-
+// "all" returns all the coffees
 function updateCoffees(e) {
     e.preventDefault(); // don't submit the form, we just want to update the data
     var selectedRoast = roastSelection.value;
@@ -35,7 +36,7 @@ function updateCoffees(e) {
 }
 
 
-
+//function add a coffee
 
 function addACoffee(e) {
     e.preventDefault();
@@ -71,6 +72,8 @@ var coffees = [
     {id: 16, name: 'jQuery', roast: 'dark'},
     {id: 17, name: 'The DOM', roast: 'dark'},
 ];
+
+//submit, roast-selection, submit new ect
 
 var tbody = document.querySelector('#coffees');
 var submitButton = document.querySelector('#submit');
