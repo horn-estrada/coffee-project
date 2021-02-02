@@ -1,9 +1,9 @@
 .light-text{
     color: lightgrey;
 }
-a:hover{
-    color: #00aba9;
-}
+/*a:hover{*/
+/*    color: #00aba9;*/
+/*}*/
 .coffee-text {
     font-size: 66px;
     font-family:"Apple Chancery";
@@ -56,7 +56,7 @@ a:hover{
 
 .white-text {
     color: white;
-!important;
+/important;
 }
 
 .white-a, a {
@@ -78,7 +78,7 @@ a:hover{
 /*https://www.pexels.com/video/ground-coffee-from-a-coffee-bean-grinder-machine-2849942/*/
 
 .jumbotron:hover{
-    filter: brightness(85%);
+    filter: brightness(75%);
 }
 body {
     background-image: url("https://images.unsplash.com/photo-1565023998836-962ff9d5f9be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
@@ -88,27 +88,24 @@ body {
     background-position: center;
 }
 
-nav {border: 1px solid teal;
+nav {border: 1px solid darkslategrey;
     background-color: #16222A;
 }
 
 #jumbotron-tex-shadow {
     text-shadow: 2px 2px #FF0000;
-    background-color: red;
+    /*background-color: red;*/
     opacity: 0.5;
 }
 
 h1.display-3 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     font-family: Architects Daughter;
     text-shadow: 6px 6px slategray;
-    /*background-color: rgb(248, 140, 3);*/
     opacity: 0.3;
 }
-/*#navbar-brand {*/
-/*    color: black;*/
-/*}*/
+
 
 
 
@@ -238,9 +235,14 @@ a:hover{
 .social-network a {
     background-color: #F9F9F9;
 }
+
+h5 {
+    font-family: "Yusei Magic";
+}
 h4 {
     font-family: "Yusei Magic";
 }
+
 
 #navcol-1 {
     font-size: 18px
